@@ -114,7 +114,7 @@ def upstatus(statusfile,message):
         with open(statusfile,"r") as upread:
             txt = upread.read()
         try:
-            app.edit_message_text(message.chat.id, message.id, f"__Uploaded__ : **{txt}**")
+            app.edit_message_text(message.chat.id, message.id, f"Join @cybersrainbot for more bots __Uploaded__ :  **{txt}**")
             time.sleep(10)
         except:
             time.sleep(5)
