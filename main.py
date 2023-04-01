@@ -35,11 +35,11 @@ from mdisk import iswin
 def echo(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
 
     if not checkuser(message):
-        app.send_message(message.chat.id, '__You are either not **Authorized** or **Banned**__', reply_to_message_id=message.id,reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🤑 Earn Money 😍", url="https://telegram.me/cyberstainbot/404")]]))
+        app.send_message(message.chat.id, 'Monthly 100 Rupees Only, Contact Admin For Access👇👇', reply_to_message_id=message.id,reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("A D M I N", url="https://t.me/Steve_4")]]))
         return
 
-    app.send_message(message.chat.id, '**Hi, I am Mdisk Video Downloader, you can watch Videos without MX Player.\n__Send me a link to Start...__**',reply_to_message_id=message.id,
-    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🤑 Earn Money 😍", url="https://telegram.me/cyberstainbot/404")]]))
+    app.send_message(message.chat.id, 'Hi, I am Mdisk Video Downloader, you can watch Videos without MX Player.\nSend me a link to Start...',reply_to_message_id=message.id,
+    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("A D M I N", url="https://T.me/Steve_4")]]))
 
 # help command
 @app.on_message(filters.command(["help"]))
